@@ -1,0 +1,62 @@
+export const ORG_SEO = {
+  defaultKeywords: [
+    "Commercial And Residential Painting",
+    "Rendering Services",
+    "Silicone And Caulking Services",
+    "Painting Services Victoria",
+    "Residential Painting",
+    "Commercial Painting",
+    "Residential Rendering",
+    "Commercial Rendering",
+    "Residential Caulking",
+    "Commercial Caulking",
+    "New Build Services",
+    "Apartment Maintenance Services",
+  ] as const,
+
+  homeKeywords: [
+    "Commercial And Residential Painting",
+    "Rendering Services",
+    "Silicone And Caulking Services",
+    "Painting Services Victoria",
+    "Residential Painting",
+    "Commercial Painting",
+    "New Build Painting",
+    "Apartment Painting",
+    "Rendering For Homes",
+    "Caulking For Apartments",
+    "Maintenance Works Victoria",
+  ] as const,
+
+  aboutKeywords: [
+    "Commercial And Residential Painting",
+    "Rendering Services",
+    "Silicone And Caulking Services",
+    "Victoria Painting Contractors",
+    "Victoria Rendering Contractors",
+    "New Build And Maintenance Work",
+    "Residential And Commercial Projects",
+  ] as const,
+
+  contactKeywords: [
+    "Painting Quote Victoria",
+    "Rendering Quote Victoria",
+    "Silicone Quote Victoria",
+    "Caulking Quote Victoria",
+    "Free Quote Painting",
+    "Free Quote Rendering",
+    "Free Quote Caulking",
+    "Residential And Commercial Services",
+  ] as const,
+
+  serviceBaseKeywords: [
+    "Commercial And Residential Painting",
+    "Rendering Services",
+    "Silicone And Caulking Services",
+    "New Build Services",
+    "New House Services",
+    "Apartment Services",
+    "Maintenance Services",
+    "Residential And Commercial Projects",
+  ] as const,
+} as const;
