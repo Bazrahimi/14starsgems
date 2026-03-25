@@ -2,10 +2,9 @@
 
 import { CtaKey } from "../content/cta";
 import { OtherLanguageKey } from "../languages/multiculturalStatement";
-import { ORG_INDUSTRY_SECTORS } from "./serviceArea";
 
-const ORG_DOMAIN = "canconstruction.com.au" as const;
-const orgName = "Can Construction Pty Ltd";
+const ORG_DOMAIN = "14stargems.com.au" as const;
+const orgName = "14 Start Gems Stone";
 // const appName = "canconstruction";
 
 export const getBaseUrl = (): string => {
@@ -17,20 +16,20 @@ export const getBaseUrl = (): string => {
 };
 
 export const ORG_PROFILE = {
-  orgName: orgName,
+  orgName,
   orgNameFarsi: "",
-  industry: ORG_INDUSTRY_SECTORS.BUILDING.industry,
-  subSector: ORG_INDUSTRY_SECTORS.BUILDING.Sectors.painting,
+  industry: "Gemstones",
+  subSector: "Natural Gemstones And Stone Collection",
   description:
-    "Professional painting, Silicon | Caulking, and rendering services across Victoria for residential and commercial projects.",
+    "14 Star Gems offers a curated collection of natural gemstones in South East Victoria, including aquamarine, topaz, emerald, black and green tourmaline, ruby, and sapphire.",
   // languages: ["EN", "HZ", "FA"] as const satisfies readonly LanguageKey[],
   otherLangKeys: [] as OtherLanguageKey[],
   domain: ORG_DOMAIN,
-  email: "canconstruction12@gmail.com",
-  phone: "0406 182 099",
-  address: "2 Faldo Place, Cranbourne VIC 3977",
-  abn: "37 649 729 395",
+  email: "qhazo_ali@yahoo.com",
+  phone: "0434 417 719",
+  address: "Level 2, 311 Lonsdale Street, Dandenong VIC 3175",
+  abn: "",
   cta: "freeQuote" as CtaKey,
-  primaryColor: "#1f1f1f",
-  secondaryColor: "#cfa428",
+  primaryColor: "#15803d",
+  secondaryColor: "#0ea5e9",
 } as const;

@@ -1,41 +1,47 @@
 import type { ServicesPage } from "../definitions";
 import { cldImages } from "../publicAssets";
 
-import { commercialAndResidentialPainting } from "./subCategories/commercialAndResidentialPainting";
-import { rendering } from "./subCategories/rendering";
-import { siliconeAndCaulking } from "./subCategories/siliconeAndCaulking";
+import { gemstoneCollection } from "./subCategories/gemstoneCollection";
+import { featuredGemstones } from "./subCategories/featuredGemstones";
+import { gemstoneSelectionSupport } from "./subCategories/gemstoneSelectionSupport";
 
 export const SERVICES_PAGE = {
-  commercialAndResidentialPainting: {
-    slug: "commercial-and-residential-painting-cranbourne",
-    label: "Commercial And Residential Painting",
-    image: [cldImages.services.commercialAndResidentialPainting],
-    labelFarsi: "رنگ‌آمیزی تجاری و مسکونی",
+  gemstoneCollection: {
+    slug: "natural-gemstone-collection-south-east-victoria",
+    label: "Natural Gemstone Collection",
+    image: [
+      // cldImages.services.gemstoneCollection
+    ],
+    labelFarsi: "مجموعه سنگ‌های قیمتی طبیعی",
     description: [
-      "Professional painting services for residential and commercial properties across Victoria, including new builds, apartments, houses, repaints, and maintenance work.",
+      "A curated collection of natural gemstones across South East Victoria, including aquamarine, topaz, emerald, tourmaline, ruby, and sapphire for collectors, gifts, and personal selection.",
     ] as const,
-    subcategories: commercialAndResidentialPainting,
+    subcategories: gemstoneCollection,
   },
 
-  rendering: {
-    slug: "rendering-cranbourne",
-    label: "Rendering Services",
-    image: [cldImages.services.rendering],
-    labelFarsi: "خدمات رندرینگ",
+  featuredGemstones: {
+    slug: "featured-gemstones-south-east-victoria",
+    label: "Featured Gemstones",
+    image: [
+      // cldImages.services.featuredGemstones
+    ],
+    labelFarsi: "سنگ‌های قیمتی منتخب",
     description: [
-      "Quality rendering services for new homes, apartments, commercial projects, renovations, and repair works with clean finishes and reliable workmanship.",
+      "Featured gemstone pieces selected for colour, character, visual appeal, and collector interest, including both classic and distinctive natural stones.",
     ] as const,
-    subcategories: rendering,
+    subcategories: featuredGemstones,
   },
 
-  siliconeAndCaulking: {
-    slug: "silicone-and-caulking-cranbourne",
-    label: "Silicone And Caulking Services",
-    image: [cldImages.services.siliconeAndCaulking],
-    labelFarsi: "خدمات سیلیکون و کالکینگ",
+  gemstoneSelectionSupport: {
+    slug: "gemstone-selection-support-south-east-victoria",
+    label: "Gemstone Selection Support",
+    image: [
+      // cldImages.services.gemstoneSelectionSupport
+    ],
+    labelFarsi: "راهنمای انتخاب سنگ‌های قیمتی",
     description: [
-      "Professional silicone and caulking services for bathrooms, kitchens, windows, facades, apartments, commercial sites, and maintenance projects.",
+      "Helpful gemstone selection support for buyers and collectors looking for the right stone based on colour, type, appearance, and intended use.",
     ] as const,
-    subcategories: siliconeAndCaulking,
+    subcategories: gemstoneSelectionSupport,
   },
 } as const satisfies Record<string, ServicesPage>;
