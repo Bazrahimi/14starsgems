@@ -26,10 +26,12 @@ export const ORG_PROFILE = {
   otherLangKeys: [] as OtherLanguageKey[],
   domain: ORG_DOMAIN,
   email: "qhazo_ali@yahoo.com",
-  phone: "0434 417 719",
+  phone: "0412 968 818",
   address: "Level 2, 311 Lonsdale Street, Dandenong VIC 3175",
   abn: "",
   cta: "freeQuote" as CtaKey,
   primaryColor: "#15803d",
   secondaryColor: "#0ea5e9",
 } as const;
+
+//
